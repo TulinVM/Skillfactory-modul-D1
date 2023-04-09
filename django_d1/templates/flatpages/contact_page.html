@@ -1,0 +1,18 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+<h1>{{ flatpage.title }}</h1>
+<hr>
+<p><em><h2>SkillFactory — oнлайн-школа IT-профессий.</h2></em></p>
+<p><em><h2>Онлайн-курсы по Data Science, аналитике,
+программированию и менеджменту © 2023</h2></em></p>
+<br>
+<p><em><h1>Наши контакты:</h1></em></p>
+<p><em>{{ flatpage.content }}</em></p>
+<hr>
+<p><u>{{ flatpage.content }}</u></p>
+{% endblock content %}

@@ -1,0 +1,37 @@
+{% extends 'flatpages/default.html' %}
+<!--{% block title %}
+{{ flatpage.title }}
+{% endblock title %} -->
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Домашняя страница</title>
+<meta name="generator" content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
+<link href="Безымянный1.css" rel="stylesheet">
+<link href="home.css" rel="stylesheet"
+</head>
+
+<body>
+
+
+<div id="wb_Heading1" style="position:absolute;left:41px;top:113px;width:675px;height:155px;z-index:0;">
+{% block content %}
+    {{ flatpage.content }}
+
+    <h3 id="Heading1">Всем привет.<br> Я учюсь в SkillFactory — oнлайн-школе IT-профессий на новую специальность Fullstack разработчик на Python<br></h3></div>
+
+<div id="wb_Marquee1" style="position:absolute;left:16px;top:428px;width:397px;height:48px;text-align:center;z-index:1;overflow:hidden">
+<div id="Marquee1">
+<span style="color:#000000;font-family:Arial;font-size:10px;">SkillFactory — oнлайн-школа IT-профессий. Онлайн-курсы по Data Science, аналитике,
+программированию и менеджменту © 2023</span></div></div>
+
+<div id="wb_Image1" style="position:absolute;left:184px;top:324px;width:275px;height83px;z-index:2;">
+<img src="skills.png" id="Image1" alt=""></div>
+{% endblock content %}
+
+</body>
+
+</html>
